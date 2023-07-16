@@ -1,0 +1,74 @@
+body{
+    background:linear-gradient(rgb(50, 114, 218), skyblue) !important;
+}
+main{
+    background: linear-gradient(rgb(67, 193, 219), white);
+    border: 1px solid rgb(91, 91, 91);
+    border-radius: 8px;
+}
+
+main{
+    padding: 100px;
+}
+#man{
+    color: darksalmon;
+}
+.cpntainer-fluid a{
+    font-weight: 600;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 14px;
+    
+}
+.text-bg-primary {
+    color: black !important;
+    background-color: #fff !important;
+}
+.card-body{
+    height: 30vh;
+}
+.d-flex{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 30px;
+}
+.d-flex input{
+    width: 12rem;
+    border: 1.5px solid black;
+     
+}
+main ul span{
+    font-weight: bold;
+}
+main ul li{
+    text-align: left;
+    margin-left: 25%;
+    padding: 8px 10px;
+}
+.container button{
+    background-color: #fff;
+    color: black;
+}
+.container button:hover{
+    background-color: rgb(41, 156, 118);
+}
+@media only screen and (max-width: 495px){
+    main{
+        padding: 50px;
+    }
+
+    .col{
+        width: 60vw;
+    }
+    .card-body{
+        height: auto;
+        width: 50vw;
+    }
+    main ul li{
+        text-align: left;
+        margin-left: auto;
+        padding: 8px 10px;
+    }
+}
